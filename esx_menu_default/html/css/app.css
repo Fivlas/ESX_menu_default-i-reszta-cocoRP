@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
+@import url("https://fonts.googleapis.com/css?family=Hammersmith+One");
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+
+.menu {
+	font-family: 'Hammersmith One', sans-serif;
+	min-width: 360px;
+	color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 50px 0px rgb(0, 0, 0);
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	font-size:16px;
+	text-shadow: -0.1px -0.1px 0 #000, 0.1px -0.1px 0 #000, -0.1px 0.1px 0 #000, 0.1px 0.1px 0 #000;
+	text-transform: uppercase;
+	word-spacing: 2px;
+	margin-top: 80px;
+	letter-spacing: 1px;
+}
+
+.menu.align-left {
+	left: 28;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 40;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.menu .head {
+	font-family: 'Bebas Neue', sans-serif;
+	text-align: center;
+	height: 37px;
+	line-height: 40px;
+	letter-spacing: 3px;
+    background: #2c2f33;
+	color: #ffffff;
+	font-size:24px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-top: -50px;
+}
+
+.menu .menu-items {
+	max-height: 600px;
+	overflow-y: auto;
+	margin-top: 10px;
+}
+
+.menu .menu-items .menu-item {
+	top:5px;
+	display: block;
+	height: 26px;
+	line-height: 26px;
+	color: #f5f5f5;
+	text-align: center;
+	width: 100%;
+	margin:auto;
+
+}
+
+.menu-item:first-of-type {
+	margin-top: 0;
+}
+
+.menu .menu-items .menu-item.selected {
+	top:5px;
+	display: block;
+	line-height: 26px;
+	height: 26px;
+	width: 100%;
+	margin:auto;
+	color: #ffffff;
+	font-size: 16px;
+	-webkit-text-stroke: 0.5px black;
+	text-align: center;
+    background: rgb(63, 60, 60);
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+
+	
+}

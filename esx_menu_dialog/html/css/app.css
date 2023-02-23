@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue");
+@import url("https://fonts.googleapis.com/css?family=Hammersmith+One");
+
+
+#controls {
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 3em;
+	color: #FFF;
+	position: absolute;
+	bottom: 40;
+	right: 40;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-weight: 600;
+}
+
+.controls {
+	display: none;
+}
+
+.dialog {
+	font-family: 'Bebas Neue', sans-serif;
+	color: #fff;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 104px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+
+	
+}
+
+.dialog.big {
+	height: 200px;
+}
+
+.dialog .head {
+    background: #2c2f33;
+	text-align: center;
+	height: 40px;
+	font-size:20px;
+	letter-spacing: 3px;
+}
+
+.dialog .head span:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.dialog input[type="text"] {
+	width: 100%;
+	height: 32px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border:1px solid rgba(0, 0, 0, 0.6);
+	color:white;
+	outline: none;
+}
+
+.dialog textarea {
+	width: 100%;
+	height: 128px;
+	background-color: rgba(0, 0, 0, 0.466);
+}
+
+.dialog button[name="submit"] {
+	width: 80%;
+	height: 32px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    background: #2c2f33;
+	border:1px solid rgba(0, 0, 0, 0.274);
+	color:white;
+	outline: none;
+	border-bottom-left-radius: 5px;
+}
+
+.dialog button[name="cancel"] {
+	width: 20%;
+	height: 32px;
+	font-family: 'Bebas Neue', sans-serif;
+	letter-spacing: 1px;
+	background: #2c2f33;
+	border:1px solid rgba(0, 0, 0, 0.185);
+	color:white;
+	outline: none;
+	border-bottom-right-radius: 5px;
+}
